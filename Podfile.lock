@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (7.1.2)
+  - ObjectMapper (4.2.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - ObjectMapper (~> 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+
+PODFILE CHECKSUM: 46c2a33a373cab7366a94a93fb1e5b5c3210897c
+
+COCOAPODS: 1.11.2

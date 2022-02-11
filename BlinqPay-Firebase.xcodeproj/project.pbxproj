@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24649D72F8307ABFE3769626 /* Pods_BlinqPay_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B82F8F5F5A125B84779C791 /* Pods_BlinqPay_Firebase.framework */; };
+		839BFA3CA740F0C7023C2FC2 /* Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C16F0EFD01E1AF352D99873 /* Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework */; };
+		85CF5CEB3FA6D802C3AF71E7 /* Pods_BlinqPay_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B6D3FB53002BA17A548DCA /* Pods_BlinqPay_FirebaseTests.framework */; };
 		8C74ECE327B55BC4005E36B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ECE227B55BC4005E36B6 /* AppDelegate.swift */; };
 		8C74ECE527B55BC4005E36B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ECE427B55BC4005E36B6 /* SceneDelegate.swift */; };
 		8C74ECE727B55BC4005E36B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ECE627B55BC4005E36B6 /* ViewController.swift */; };
@@ -16,6 +19,27 @@
 		8C74ECFA27B55BC9005E36B6 /* BlinqPay_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ECF927B55BC9005E36B6 /* BlinqPay_FirebaseTests.swift */; };
 		8C74ED0427B55BC9005E36B6 /* BlinqPay_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED0327B55BC9005E36B6 /* BlinqPay_FirebaseUITests.swift */; };
 		8C74ED0627B55BC9005E36B6 /* BlinqPay_FirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED0527B55BC9005E36B6 /* BlinqPay_FirebaseUITestsLaunchTests.swift */; };
+		8C74ED1427B57285005E36B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8C74ED1327B57285005E36B6 /* FirebaseAuth */; };
+		8C74ED1627B57285005E36B6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8C74ED1527B57285005E36B6 /* FirebaseDatabase */; };
+		8C74ED1827B57285005E36B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C74ED1727B57285005E36B6 /* FirebaseFirestore */; };
+		8C74ED1A27B57488005E36B6 /* GoogleService-Info32.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C74ED1927B57488005E36B6 /* GoogleService-Info32.plist */; };
+		8C74ED2527B61D7F005E36B6 /* StoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED2427B61D7F005E36B6 /* StoryModel.swift */; };
+		8C74ED2827B62D29005E36B6 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED2727B62D29005E36B6 /* StoryTableViewCell.swift */; };
+		8C74ED2A27B62F57005E36B6 /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED2927B62F57005E36B6 /* StoryViewModel.swift */; };
+		8C74ED2D27B6345F005E36B6 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8C74ED2C27B6345F005E36B6 /* RxCocoa */; };
+		8C74ED2F27B6345F005E36B6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8C74ED2E27B6345F005E36B6 /* RxSwift */; };
+		8C74ED3227B637F0005E36B6 /* ReactiveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED3127B637F0005E36B6 /* ReactiveExtension.swift */; };
+		8C74ED3C27B63BD4005E36B6 /* AnimateloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED3527B63BD3005E36B6 /* AnimateloadingView.swift */; };
+		8C74ED3D27B63BD4005E36B6 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C74ED3627B63BD3005E36B6 /* LoadingView.xib */; };
+		8C74ED3E27B63BD4005E36B6 /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED3727B63BD3005E36B6 /* LoadingViewable.swift */; };
+		8C74ED3F27B63BD4005E36B6 /* loadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED3827B63BD3005E36B6 /* loadingView.swift */; };
+		8C74ED4027B63BD4005E36B6 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C74ED3A27B63BD4005E36B6 /* MessageView.xib */; };
+		8C74ED4127B63BD4005E36B6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED3B27B63BD4005E36B6 /* MessageView.swift */; };
+		8C74ED4327B63CC3005E36B6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED4227B63CC3005E36B6 /* UIViewExtension.swift */; };
+		8C74ED4527B646B4005E36B6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED4427B646B4005E36B6 /* UIViewControllerExtension.swift */; };
+		8C74ED4927B66AA2005E36B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C74ED4827B66AA1005E36B6 /* GoogleService-Info.plist */; };
+		8C74ED4B27B68F71005E36B6 /* DictionaryConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED4A27B68F71005E36B6 /* DictionaryConverter.swift */; };
+		8C74ED4D27B6D67F005E36B6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C74ED4C27B6D67F005E36B6 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8828197DF9DB866A0FC707 /* Pods-BlinqPay-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-BlinqPay-FirebaseTests/Pods-BlinqPay-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		12769605F6B2C51147D6B007 /* Pods-BlinqPay-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-Firebase.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPay-Firebase/Pods-BlinqPay-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		26B6D3FB53002BA17A548DCA /* Pods_BlinqPay_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C16F0EFD01E1AF352D99873 /* Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B82F8F5F5A125B84779C791 /* Pods_BlinqPay_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8516AC31DB4C438026EB6ED0 /* Pods-BlinqPay-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-Firebase.release.xcconfig"; path = "Target Support Files/Pods-BlinqPay-Firebase/Pods-BlinqPay-Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		8C74ECDF27B55BC4005E36B6 /* BlinqPay-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlinqPay-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C74ECE227B55BC4005E36B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C74ECE427B55BC4005E36B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,25 @@
 		8C74ECFF27B55BC9005E36B6 /* BlinqPay-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlinqPay-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C74ED0327B55BC9005E36B6 /* BlinqPay_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPay_FirebaseUITests.swift; sourceTree = "<group>"; };
 		8C74ED0527B55BC9005E36B6 /* BlinqPay_FirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPay_FirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C74ED1927B57488005E36B6 /* GoogleService-Info32.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info32.plist"; sourceTree = "<group>"; };
+		8C74ED2427B61D7F005E36B6 /* StoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModel.swift; sourceTree = "<group>"; };
+		8C74ED2727B62D29005E36B6 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		8C74ED2927B62F57005E36B6 /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		8C74ED3127B637F0005E36B6 /* ReactiveExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExtension.swift; sourceTree = "<group>"; };
+		8C74ED3527B63BD3005E36B6 /* AnimateloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateloadingView.swift; sourceTree = "<group>"; };
+		8C74ED3627B63BD3005E36B6 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		8C74ED3727B63BD3005E36B6 /* LoadingViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
+		8C74ED3827B63BD3005E36B6 /* loadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
+		8C74ED3A27B63BD4005E36B6 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		8C74ED3B27B63BD4005E36B6 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		8C74ED4227B63CC3005E36B6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8C74ED4427B646B4005E36B6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		8C74ED4827B66AA1005E36B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C74ED4A27B68F71005E36B6 /* DictionaryConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryConverter.swift; sourceTree = "<group>"; };
+		8C74ED4C27B6D67F005E36B6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		97938AF595942E462A8AF5FA /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0DDF0AF306272617C6CF09F /* Pods-BlinqPay-FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPay-FirebaseTests/Pods-BlinqPay-FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6787FD1CB0F42CED4768C74 /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74ED2F27B6345F005E36B6 /* RxSwift in Frameworks */,
+				8C74ED1627B57285005E36B6 /* FirebaseDatabase in Frameworks */,
+				8C74ED1427B57285005E36B6 /* FirebaseAuth in Frameworks */,
+				8C74ED2D27B6345F005E36B6 /* RxCocoa in Frameworks */,
+				8C74ED1827B57285005E36B6 /* FirebaseFirestore in Frameworks */,
+				24649D72F8307ABFE3769626 /* Pods_BlinqPay_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CF5CEB3FA6D802C3AF71E7 /* Pods_BlinqPay_FirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839BFA3CA740F0C7023C2FC2 /* Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +140,8 @@
 				8C74ECF827B55BC9005E36B6 /* BlinqPay-FirebaseTests */,
 				8C74ED0227B55BC9005E36B6 /* BlinqPay-FirebaseUITests */,
 				8C74ECE027B55BC4005E36B6 /* Products */,
+				F776376EA852CDE89ED1A601 /* Pods */,
+				D199C1EC2A5F5CB0F53435C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +158,18 @@
 		8C74ECE127B55BC4005E36B6 /* BlinqPay-Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				8C74ECE227B55BC4005E36B6 /* AppDelegate.swift */,
-				8C74ECE427B55BC4005E36B6 /* SceneDelegate.swift */,
-				8C74ECE627B55BC4005E36B6 /* ViewController.swift */,
+				8C74ED3327B63B53005E36B6 /* SupportingFiles */,
+				8C74ED3027B637DC005E36B6 /* Extension */,
+				8C74ED2627B62D04005E36B6 /* Views */,
+				8C74ED2327B61D5A005E36B6 /* ViewModels */,
+				8C74ED2127B61D48005E36B6 /* Models */,
+				8C74ED2027B61C87005E36B6 /* Controllers */,
 				8C74ECE827B55BC4005E36B6 /* Main.storyboard */,
 				8C74ECEB27B55BC8005E36B6 /* Assets.xcassets */,
 				8C74ECED27B55BC8005E36B6 /* LaunchScreen.storyboard */,
+				8C74ED1927B57488005E36B6 /* GoogleService-Info32.plist */,
 				8C74ECF027B55BC8005E36B6 /* Info.plist */,
+				8C74ED4827B66AA1005E36B6 /* GoogleService-Info.plist */,
 			);
 			path = "BlinqPay-Firebase";
 			sourceTree = "<group>";
@@ -127,6 +191,104 @@
 			path = "BlinqPay-FirebaseUITests";
 			sourceTree = "<group>";
 		};
+		8C74ED2027B61C87005E36B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ECE627B55BC4005E36B6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C74ED2127B61D48005E36B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED2427B61D7F005E36B6 /* StoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C74ED2327B61D5A005E36B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED2927B62F57005E36B6 /* StoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C74ED2627B62D04005E36B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED2727B62D29005E36B6 /* StoryTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C74ED3027B637DC005E36B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED3127B637F0005E36B6 /* ReactiveExtension.swift */,
+				8C74ED4227B63CC3005E36B6 /* UIViewExtension.swift */,
+				8C74ED4427B646B4005E36B6 /* UIViewControllerExtension.swift */,
+				8C74ED4A27B68F71005E36B6 /* DictionaryConverter.swift */,
+				8C74ED4C27B6D67F005E36B6 /* PlayerView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8C74ED3327B63B53005E36B6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ECE227B55BC4005E36B6 /* AppDelegate.swift */,
+				8C74ECE427B55BC4005E36B6 /* SceneDelegate.swift */,
+				8C74ED3427B63BD3005E36B6 /* LoadingView */,
+				8C74ED3927B63BD4005E36B6 /* MessageView */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8C74ED3427B63BD3005E36B6 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED3527B63BD3005E36B6 /* AnimateloadingView.swift */,
+				8C74ED3627B63BD3005E36B6 /* LoadingView.xib */,
+				8C74ED3727B63BD3005E36B6 /* LoadingViewable.swift */,
+				8C74ED3827B63BD3005E36B6 /* loadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		8C74ED3927B63BD4005E36B6 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				8C74ED3A27B63BD4005E36B6 /* MessageView.xib */,
+				8C74ED3B27B63BD4005E36B6 /* MessageView.swift */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		D199C1EC2A5F5CB0F53435C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B82F8F5F5A125B84779C791 /* Pods_BlinqPay_Firebase.framework */,
+				3C16F0EFD01E1AF352D99873 /* Pods_BlinqPay_Firebase_BlinqPay_FirebaseUITests.framework */,
+				26B6D3FB53002BA17A548DCA /* Pods_BlinqPay_FirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F776376EA852CDE89ED1A601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12769605F6B2C51147D6B007 /* Pods-BlinqPay-Firebase.debug.xcconfig */,
+				8516AC31DB4C438026EB6ED0 /* Pods-BlinqPay-Firebase.release.xcconfig */,
+				F6787FD1CB0F42CED4768C74 /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.debug.xcconfig */,
+				97938AF595942E462A8AF5FA /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.release.xcconfig */,
+				B0DDF0AF306272617C6CF09F /* Pods-BlinqPay-FirebaseTests.debug.xcconfig */,
+				0D8828197DF9DB866A0FC707 /* Pods-BlinqPay-FirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +296,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C74ED0927B55BC9005E36B6 /* Build configuration list for PBXNativeTarget "BlinqPay-Firebase" */;
 			buildPhases = (
+				070A3B916E2935E8B88F18D0 /* [CP] Check Pods Manifest.lock */,
 				8C74ECDB27B55BC4005E36B6 /* Sources */,
 				8C74ECDC27B55BC4005E36B6 /* Frameworks */,
 				8C74ECDD27B55BC4005E36B6 /* Resources */,
+				65336CE4CE4C37C0B9529E76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "BlinqPay-Firebase";
+			packageProductDependencies = (
+				8C74ED1327B57285005E36B6 /* FirebaseAuth */,
+				8C74ED1527B57285005E36B6 /* FirebaseDatabase */,
+				8C74ED1727B57285005E36B6 /* FirebaseFirestore */,
+				8C74ED2C27B6345F005E36B6 /* RxCocoa */,
+				8C74ED2E27B6345F005E36B6 /* RxSwift */,
+			);
 			productName = "BlinqPay-Firebase";
 			productReference = 8C74ECDF27B55BC4005E36B6 /* BlinqPay-Firebase.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C74ED0C27B55BC9005E36B6 /* Build configuration list for PBXNativeTarget "BlinqPay-FirebaseTests" */;
 			buildPhases = (
+				A23CF5F661B4517F31FBC5A1 /* [CP] Check Pods Manifest.lock */,
 				8C74ECF127B55BC9005E36B6 /* Sources */,
 				8C74ECF227B55BC9005E36B6 /* Frameworks */,
 				8C74ECF327B55BC9005E36B6 /* Resources */,
@@ -169,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C74ED0F27B55BC9005E36B6 /* Build configuration list for PBXNativeTarget "BlinqPay-FirebaseUITests" */;
 			buildPhases = (
+				B7E57F76DD8C6DB20D8E92B3 /* [CP] Check Pods Manifest.lock */,
 				8C74ECFB27B55BC9005E36B6 /* Sources */,
 				8C74ECFC27B55BC9005E36B6 /* Frameworks */,
 				8C74ECFD27B55BC9005E36B6 /* Resources */,
+				2EDBD21BCCF7B8FEC7E296DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +389,10 @@
 				Base,
 			);
 			mainGroup = 8C74ECD627B55BC3005E36B6;
+			packageReferences = (
+				8C74ED1227B57284005E36B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8C74ED2B27B6345F005E36B6 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 8C74ECE027B55BC4005E36B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +409,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74ED4927B66AA2005E36B6 /* GoogleService-Info.plist in Resources */,
+				8C74ED4027B63BD4005E36B6 /* MessageView.xib in Resources */,
 				8C74ECEF27B55BC8005E36B6 /* LaunchScreen.storyboard in Resources */,
+				8C74ED1A27B57488005E36B6 /* GoogleService-Info32.plist in Resources */,
 				8C74ECEC27B55BC8005E36B6 /* Assets.xcassets in Resources */,
 				8C74ECEA27B55BC4005E36B6 /* Main.storyboard in Resources */,
+				8C74ED3D27B63BD4005E36B6 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +435,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		070A3B916E2935E8B88F18D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPay-Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDBD21BCCF7B8FEC7E296DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65336CE4CE4C37C0B9529E76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase/Pods-BlinqPay-Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase/Pods-BlinqPay-Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-Firebase/Pods-BlinqPay-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23CF5F661B4517F31FBC5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPay-FirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E57F76DD8C6DB20D8E92B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C74ECDB27B55BC4005E36B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C74ED2A27B62F57005E36B6 /* StoryViewModel.swift in Sources */,
+				8C74ED3227B637F0005E36B6 /* ReactiveExtension.swift in Sources */,
 				8C74ECE727B55BC4005E36B6 /* ViewController.swift in Sources */,
+				8C74ED4D27B6D67F005E36B6 /* PlayerView.swift in Sources */,
+				8C74ED3F27B63BD4005E36B6 /* loadingView.swift in Sources */,
+				8C74ED4B27B68F71005E36B6 /* DictionaryConverter.swift in Sources */,
+				8C74ED3C27B63BD4005E36B6 /* AnimateloadingView.swift in Sources */,
+				8C74ED3E27B63BD4005E36B6 /* LoadingViewable.swift in Sources */,
+				8C74ED4327B63CC3005E36B6 /* UIViewExtension.swift in Sources */,
+				8C74ED4127B63BD4005E36B6 /* MessageView.swift in Sources */,
 				8C74ECE327B55BC4005E36B6 /* AppDelegate.swift in Sources */,
+				8C74ED4527B646B4005E36B6 /* UIViewControllerExtension.swift in Sources */,
 				8C74ECE527B55BC4005E36B6 /* SceneDelegate.swift in Sources */,
+				8C74ED2527B61D7F005E36B6 /* StoryModel.swift in Sources */,
+				8C74ED2827B62D29005E36B6 /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +731,7 @@
 		};
 		8C74ED0A27B55BC9005E36B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12769605F6B2C51147D6B007 /* Pods-BlinqPay-Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +749,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.royaltech.BlinqPay-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blinqpay.blinqchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,6 +759,7 @@
 		};
 		8C74ED0B27B55BC9005E36B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8516AC31DB4C438026EB6ED0 /* Pods-BlinqPay-Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,7 +777,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.royaltech.BlinqPay-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blinqpay.blinqchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +787,7 @@
 		};
 		8C74ED0D27B55BC9005E36B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DDF0AF306272617C6CF09F /* Pods-BlinqPay-FirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +812,7 @@
 		};
 		8C74ED0E27B55BC9005E36B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8828197DF9DB866A0FC707 /* Pods-BlinqPay-FirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +837,7 @@
 		};
 		8C74ED1027B55BC9005E36B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6787FD1CB0F42CED4768C74 /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +860,7 @@
 		};
 		8C74ED1127B55BC9005E36B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97938AF595942E462A8AF5FA /* Pods-BlinqPay-Firebase-BlinqPay-FirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -618,6 +921,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C74ED1227B57284005E36B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		8C74ED2B27B6345F005E36B6 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C74ED1327B57285005E36B6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C74ED1227B57284005E36B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8C74ED1527B57285005E36B6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C74ED1227B57284005E36B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8C74ED1727B57285005E36B6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C74ED1227B57284005E36B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8C74ED2C27B6345F005E36B6 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C74ED2B27B6345F005E36B6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		8C74ED2E27B6345F005E36B6 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C74ED2B27B6345F005E36B6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C74ECD727B55BC3005E36B6 /* Project object */;
 }
